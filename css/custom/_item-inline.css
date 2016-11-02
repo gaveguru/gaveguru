@@ -1,0 +1,10 @@
+.item-inline {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.item-inline > * {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=_item-inline.css.map */
