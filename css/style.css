@@ -33513,10 +33513,6 @@ label span {
   position: relative;
 }
 
-.cta-chat,
-.cta-chat-link {
-  overflow: hidden;
-}
 .cta-chat {
   margin-top:30px;
 }
@@ -33526,6 +33522,10 @@ label span {
 .cta-chat-link {
   display: inline-block;
   cursor: pointer;
+  transform: scale(1.0);
+}
+.cta-chat-link:hover {
+  transform: scale(1.04);
 }
 .cta-chat-img,
 .cta-chat-text {
