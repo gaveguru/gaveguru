@@ -23961,10 +23961,6 @@ p + .link {
   z-index: 1;
 }
 
-.image-wrap-variant-1 .image-wrap-body {
-  display: none;
-}
-
 @media (min-width: 768px) {
   .image-wrap-variant-1 .image-wrap-body {
     display: block;
@@ -33580,5 +33576,15 @@ label span {
 }
 .promo-video {
   max-width: 100%;
+}
+
+.christmas-gaveguru {
+  margin: auto;
+  max-width: 300px;
+}
+@media (min-width: 768px) {
+  .christmas-gaveguru {
+    max-width: 600px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
