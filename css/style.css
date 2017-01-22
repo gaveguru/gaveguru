@@ -23762,10 +23762,15 @@ p + .link {
 
 .displacement-1 {
   position: relative;
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
   .displacement-1 {
+    max-width: 340px;
     margin-bottom: 60px;
   }
 }
@@ -23959,10 +23964,6 @@ p + .link {
 .image-wrap {
   position: relative;
   z-index: 1;
-}
-
-.image-wrap-variant-1 .image-wrap-body {
-  display: none;
 }
 
 @media (min-width: 768px) {
@@ -33580,5 +33581,8 @@ label span {
 }
 .promo-video {
   max-width: 100%;
+}
+.gg-logo {
+  width: 100% !important;
 }
 /*# sourceMappingURL=style.css.map */
